@@ -1,13 +1,7 @@
 body{
     background-color:moccasin;
 }
-div h3, div p{
-    color: black;
-  background-color:gray ;
-    margin: 15px 15px 20px 15px;
-    padding: 15px 15px 20px 15px;
-    
-}
+
 .borde{
    border-color: aqua;
   border-style: solid;
@@ -41,10 +35,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .title-1{
     margin: 15px 15px 20px 15px;
     padding: 15px 15px 20px 15px;
+    text-align: center;
 }
 .title-2{
     margin: 15px 15px 20px 15px;
     padding: 15px 15px 20px 15px;
+    text-align: center;
 }
 .table-1{
     margin: 15px 15px 20px 15px;
@@ -65,7 +61,38 @@ th{
     background-color: darkseagreen;
     color: black;
 }
+td{
+    padding-left: 20px;
+}
 tr:hover{
 background-color: cornflowerblue;
 cursor: pointer;
+}
+
+
+.footer-1{
+    background-color: darkseagreen;
+    margin:15px 15px 20px 15px;
+    padding: 15px 20px 40px 20px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+.izq{
+    float: left;
+}
+.derech{
+    float: right;
+   
+}
+
+.lista{
+    margin: 15px 15px 20px 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: ivory;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: justify;
+    
 }
